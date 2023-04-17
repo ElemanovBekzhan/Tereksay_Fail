@@ -10,27 +10,21 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2Tereksay
 {
-    public partial class Form1 : Form
+    public partial class FactoryForm : Form
     {
-        public Form1()
+        public FactoryForm()
         {
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Info1_Label_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Production frm = new Production();
-            frm.ShowDialog();
         }
     }
 }
