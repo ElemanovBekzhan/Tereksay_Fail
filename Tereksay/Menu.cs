@@ -17,20 +17,22 @@ namespace WindowsFormsApp2Tereksay
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            Company company = new Company();
+            company.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Podrazdeleniya_komp podrazdeleniyaKomp = new Podrazdeleniya_komp();
+            podrazdeleniyaKomp.Show();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            Production frm = new Production();
-            frm.ShowDialog();
+            Founders founders = new Founders();
+            founders.Show();
         }
     }
 }
