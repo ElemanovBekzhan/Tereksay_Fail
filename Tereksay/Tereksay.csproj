@@ -52,16 +52,37 @@
         <Compile Include="Company.Designer.cs">
           <DependentUpon>Company.cs</DependentUpon>
         </Compile>
+        <Compile Include="Founders.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="Founders.Designer.cs">
+          <DependentUpon>Founders.cs</DependentUpon>
+        </Compile>
         <Compile Include="Menu.cs">
             <SubType>Form</SubType>
         </Compile>
         <Compile Include="Menu.Designer.cs">
             <DependentUpon>Menu.cs</DependentUpon>
         </Compile>
+        <Compile Include="Podrazdeleniya_komp.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="Podrazdeleniya_komp.Designer.cs">
+          <DependentUpon>Podrazdeleniya_komp.cs</DependentUpon>
+        </Compile>
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <EmbeddedResource Include="Company.resx">
+          <DependentUpon>Company.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Founders.resx">
+          <DependentUpon>Founders.cs</DependentUpon>
+        </EmbeddedResource>
         <EmbeddedResource Include="Menu.resx">
           <DependentUpon>Menu.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Podrazdeleniya_komp.resx">
+          <DependentUpon>Podrazdeleniya_komp.cs</DependentUpon>
         </EmbeddedResource>
         <EmbeddedResource Include="Properties\Resources.resx">
             <Generator>ResXFileCodeGenerator</Generator>
